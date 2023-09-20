@@ -16,5 +16,12 @@ namespace githubtest
         {
             InitializeComponent();
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            //cool
+            checkBox1.Visible= false;
+            label3.Visible= true;
+        }
     }
 }
